@@ -13,27 +13,10 @@ a:visited {
     height: 20vw;
     border-radius: 20px;
 }
-.fir-1{
-    padding-left: 15vw;
-}
-.fir-2{
-    padding-left: 25vw;
-}
-.fir-3{
-    padding-left: 30vw;
-}
-.sec-1{
-    padding-left: 2vw;
-}
-.sec-2{
-    padding-left: 23vw;
-}
-.sec-3{
-    padding-left: 27vw;
-}
+
 .container {
   display: flex;
-  width: 80vw;
+  width: 90vw;
 }
 
 .panel {
@@ -76,4 +59,12 @@ a:visited {
   .panel:nth-of-type(5) {
     display: none;
   }
+}
+
+.intern-box{
+  border-radius: 20px;
+}
+hr{
+  height: 5px;
+  background-color: black;
 }
