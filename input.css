@@ -1,7 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+a:visited {
+  color: black;
+  text-decoration: none;
+}
 .head-img{
     width: 50vw;   
 }
@@ -30,7 +33,7 @@
 }
 .container {
   display: flex;
-  width: 90vw;
+  width: 80vw;
 }
 
 .panel {
@@ -39,7 +42,6 @@
   background-repeat: no-repeat;
   height: 80vh;
   border-radius: 50px;
-  color: #fff;
   cursor: pointer;
   flex: 0.5;
   margin: 10px;
